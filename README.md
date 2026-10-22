@@ -48,3 +48,4 @@ Official documentation: https://docs.github.com/en/pages/quickstart
 - Send the website files back to ChatGPT when ready to add the full article; a complete article page, publication card and links can then be integrated.
 
 Designed as a simple static site so there are no dependencies, servers or build steps.
+Website updated.
