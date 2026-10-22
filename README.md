@@ -4,13 +4,14 @@ Personal academic website for Mohammed Firas Ghannam, final-year medical student
 
 ## Public pages
 
-- `index.html` — homepage, concise biography, areas of interest, and contact.
+- `index.html` — homepage, concise biography, research areas, writing, and contact.
+- `research.html` — research experience by area and methodology, without unpublished manuscript titles.
 - `writing.html` — independent essays and educational writing (planned essay labeled in development).
 - `styles.css` — responsive layout and visual design.
 - `script.js` — mobile menu and current footer year.
 - `mohammed-ghannam-portrait.webp`, `favicon.svg`, `social-cover.jpg` — images in the repository root.
 
-There is currently **no research-publications page**. Unpublished research projects are deliberately omitted. An accurate publication list can be added when published papers are confirmed.
+The Research page intentionally describes areas of research involvement and methodological contributions without naming unpublished studies. Verified manuscript titles and DOI links may be added after publication.
 
 ## Updating the site
 
