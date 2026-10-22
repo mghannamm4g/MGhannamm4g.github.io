@@ -7,12 +7,5 @@
    menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));
    document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
  }
- const buttons=document.querySelectorAll('[data-filter]');
- const entries=document.querySelectorAll('[data-category]');
- buttons.forEach(button=>button.addEventListener('click',()=>{
-   const filter=button.dataset.filter;
-   buttons.forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button))});
-   entries.forEach(entry=>{entry.hidden=filter!=='all' && !entry.dataset.category.split(' ').includes(filter)});
- }));
  const year=document.getElementById('year');if(year)year.textContent=new Date().getFullYear();
 })();
